@@ -1,12 +1,11 @@
-#header{
+#container{
     width: 100%;
-    height: 250px;
-    background: #008080;
+    height: 180px;
+    background: #a0d694;
     padding-top: 100px;
 }
 
 body{
-    background: #F0F8FF;
     margin: 0;
 }
 
@@ -18,6 +17,29 @@ body{
     text-align: center;
     padding-top: 30px;
     position: relative;
+}
+
+#content{
+    width: 73%;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#description{
+    width: 70%;
+    height: 300px;
+    margin-top: 10px;
+    background: #eef5eb;
+    float: left;
+}
+
+#contact{
+    width: 29%;
+    height: 300px;
+    margin-top: 10px;
+    background: #eef5eb;
+    float: right;
 }
 
 #overlay{
@@ -37,9 +59,23 @@ body{
     position: relative;
 }
 
+.text-content{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    position: relative;
+}
+
 .profil-img{
     width: 150px;
     height: 150px;
     border-radius: 75px;
     position: relative;
+}
+
+#footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background: #000000;
 }
